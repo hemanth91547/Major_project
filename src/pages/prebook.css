@@ -1,0 +1,74 @@
+
+
+.prebook-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 150px;
+  }
+  
+  .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+  .product-info {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    color: #424242;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    color: #616161;
+    line-height: 1.6;
+  }
+  
+  .prebook-button {
+    padding: 10px 20px;
+    background-color: #F9ED32;
+    color: #252525;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prebook-button:hover {
+    background-color: #FFF225;
+  }
+  
+  img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .product {
+      flex-direction: column;
+    }
+  
+    .product-info {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+  

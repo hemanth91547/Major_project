@@ -1,0 +1,38 @@
+
+
+.comparison-table {
+    margin-top: 20px;
+    overflow-x: auto;  
+  }
+  
+  .comparison-table table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 8px;
+    text-align: left;
+    border: none;
+  }
+  
+  .comparison-table th {
+    background-color: #f2f2f2;  
+  }
+  
+  .comparison-table td:first-child {
+    font-weight: bold;
+  }
+table{
+    margin-bottom: 160px;
+}
+  @media screen and (max-width: 768px) {
+    .comparison-table th,
+    .comparison-table td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+
+.rentals-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rentals-container h2 {
+    color: #424242;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .rentals-container p {
+    color: #373737;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .rental-app-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rental-app-button {
+    background-color: #F9ED32;
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rental-app-button i {
+    margin-right: 5px;
+  }
+  
+  .rental-app-button:hover {
+    background-color: #FFF225;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .rentals-container {
+      padding: 20px 10px;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 160px;
+  }
+  
+  .front-line {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-photos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-checkout {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .product-checkout button {
+    padding: 10px 20px;
+    background-color: #F9ED32;
+    color: #252525;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-checkout button:hover {
+    background-color: #FFF225;
+  }
+  
+  .usp-carousel {
+    margin-bottom: 20px;
+  }
+  
+  .usp-slide {
+    padding: 20px;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    background-color: #EDEDED;
+  }
+  
+  .usp-slide h2 {
+    margin-bottom: 10px;
+    color: #252525;
+  }
+  
+  .usp-slide p {
+    color: #424242;
+  }
+  
+  .pre-book-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pre-book-button button {
+    padding: 15px 30px;
+    background-color: #F9ED32;
+    color: #252525;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pre-book-button button:hover {
+    background-color: #FFF225;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .vehicle-photos {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .usp-slide {
+      font-size: 14px;
+    }
+  
+    .pre-book-button button {
+      padding: 12px 24px;
+    }
+  }
+  
